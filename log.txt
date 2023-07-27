@@ -1,0 +1,85 @@
+runfile('E:/2WORK/python/Practice_07/practice_07.py', wdir='E:/2WORK/python/Practice_07')
+Reloaded modules: __autograph_generated_filenhvugref, __autograph_generated_filep8f9jprx
+No. of images =  8189
+No. of masks =  2040
+e:\2work\python\practice_07\practice_07.py:52: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for n, id_msk in tqdm_notebook(enumerate(ids_msk), total=len(ids_msk)):
+  0%|          | 0/2040 [00:00<?, ?it/s]
+e:\2work\python\practice_07\practice_07.py:64: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for n, id_ in tqdm_notebook(enumerate(ids_img), total=len(ids_img)):
+  0%|          | 0/2040 [00:00<?, ?it/s]
+e:\2work\python\practice_07\practice_07.py:73: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for n, id_ in tqdm_notebook(enumerate(ids_msk), total=len(ids_msk)):
+  0%|          | 0/2040 [00:00<?, ?it/s]
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_19), but are not present in its tracked objects:   <tf.Variable 'conv2d_19/kernel:0' shape=(3, 3, 1, 16) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_23), but are not present in its tracked objects:   <tf.Variable 'conv2d_19/bias:0' shape=(16,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_20), but are not present in its tracked objects:   <tf.Variable 'conv2d_20/kernel:0' shape=(3, 3, 1, 16) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_24), but are not present in its tracked objects:   <tf.Variable 'conv2d_20/bias:0' shape=(16,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_21), but are not present in its tracked objects:   <tf.Variable 'conv2d_21/kernel:0' shape=(3, 3, 16, 32) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_25), but are not present in its tracked objects:   <tf.Variable 'conv2d_21/bias:0' shape=(32,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_22), but are not present in its tracked objects:   <tf.Variable 'conv2d_22/kernel:0' shape=(3, 3, 16, 32) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_26), but are not present in its tracked objects:   <tf.Variable 'conv2d_22/bias:0' shape=(32,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_23), but are not present in its tracked objects:   <tf.Variable 'conv2d_23/kernel:0' shape=(3, 3, 32, 64) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_27), but are not present in its tracked objects:   <tf.Variable 'conv2d_23/bias:0' shape=(64,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_24), but are not present in its tracked objects:   <tf.Variable 'conv2d_24/kernel:0' shape=(3, 3, 32, 64) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_28), but are not present in its tracked objects:   <tf.Variable 'conv2d_24/bias:0' shape=(64,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_25), but are not present in its tracked objects:   <tf.Variable 'conv2d_25/kernel:0' shape=(3, 3, 64, 128) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_29), but are not present in its tracked objects:   <tf.Variable 'conv2d_25/bias:0' shape=(128,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_26), but are not present in its tracked objects:   <tf.Variable 'conv2d_26/kernel:0' shape=(3, 3, 64, 128) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_30), but are not present in its tracked objects:   <tf.Variable 'conv2d_26/bias:0' shape=(128,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_27), but are not present in its tracked objects:   <tf.Variable 'conv2d_27/kernel:0' shape=(3, 3, 128, 256) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_31), but are not present in its tracked objects:   <tf.Variable 'conv2d_27/bias:0' shape=(256,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_28), but are not present in its tracked objects:   <tf.Variable 'conv2d_28/kernel:0' shape=(3, 3, 128, 256) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_32), but are not present in its tracked objects:   <tf.Variable 'conv2d_28/bias:0' shape=(256,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.conv2d_transpose_4), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_4/kernel:0' shape=(3, 3, 128, 256) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_33), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_4/bias:0' shape=(128,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_29), but are not present in its tracked objects:   <tf.Variable 'conv2d_29/kernel:0' shape=(3, 3, 256, 128) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_34), but are not present in its tracked objects:   <tf.Variable 'conv2d_29/bias:0' shape=(128,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_30), but are not present in its tracked objects:   <tf.Variable 'conv2d_30/kernel:0' shape=(3, 3, 256, 128) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_35), but are not present in its tracked objects:   <tf.Variable 'conv2d_30/bias:0' shape=(128,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.conv2d_transpose_5), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_5/kernel:0' shape=(3, 3, 64, 128) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_36), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_5/bias:0' shape=(64,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_31), but are not present in its tracked objects:   <tf.Variable 'conv2d_31/kernel:0' shape=(3, 3, 128, 64) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_37), but are not present in its tracked objects:   <tf.Variable 'conv2d_31/bias:0' shape=(64,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_32), but are not present in its tracked objects:   <tf.Variable 'conv2d_32/kernel:0' shape=(3, 3, 128, 64) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_38), but are not present in its tracked objects:   <tf.Variable 'conv2d_32/bias:0' shape=(64,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.conv2d_transpose_6), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_6/kernel:0' shape=(3, 3, 32, 64) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_39), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_6/bias:0' shape=(32,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_33), but are not present in its tracked objects:   <tf.Variable 'conv2d_33/kernel:0' shape=(3, 3, 64, 32) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_40), but are not present in its tracked objects:   <tf.Variable 'conv2d_33/bias:0' shape=(32,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_34), but are not present in its tracked objects:   <tf.Variable 'conv2d_34/kernel:0' shape=(3, 3, 64, 32) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_41), but are not present in its tracked objects:   <tf.Variable 'conv2d_34/bias:0' shape=(32,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.conv2d_transpose_7), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_7/kernel:0' shape=(3, 3, 16, 32) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_42), but are not present in its tracked objects:   <tf.Variable 'conv2d_transpose_7/bias:0' shape=(16,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_35), but are not present in its tracked objects:   <tf.Variable 'conv2d_35/kernel:0' shape=(3, 3, 32, 16) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_43), but are not present in its tracked objects:   <tf.Variable 'conv2d_35/bias:0' shape=(16,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_36), but are not present in its tracked objects:   <tf.Variable 'conv2d_36/kernel:0' shape=(3, 3, 32, 16) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_44), but are not present in its tracked objects:   <tf.Variable 'conv2d_36/bias:0' shape=(16,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.convolution_37), but are not present in its tracked objects:   <tf.Variable 'conv2d_37/kernel:0' shape=(1, 1, 16, 1) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+WARNING:tensorflow:The following Variables were used in a Lambda layer's call (tf.nn.bias_add_45), but are not present in its tracked objects:   <tf.Variable 'conv2d_37/bias:0' shape=(1,) dtype=float32>. This is a strong indication that the Lambda layer should be rewritten as a subclassed Layer.
+Epoch 1/5
+58/58 [==============================] - ETA: 0s - loss: 0.6778 - accuracy: 0.5314  
+Epoch 1: val_loss improved from inf to 0.71840, saving model to model-tgs-salt.h5
+58/58 [==============================] - 43s 711ms/step - loss: 0.6778 - accuracy: 0.5314 - val_loss: 0.7184 - val_accuracy: 0.4215 - lr: 0.0010
+Epoch 2/5
+58/58 [==============================] - ETA: 0s - loss: 0.6339 - accuracy: 0.5659 
+Epoch 2: val_loss improved from 0.71840 to 0.69044, saving model to model-tgs-salt.h5
+58/58 [==============================] - 41s 707ms/step - loss: 0.6339 - accuracy: 0.5659 - val_loss: 0.6904 - val_accuracy: 0.4889 - lr: 0.0010
+Epoch 3/5
+58/58 [==============================] - ETA: 0s - loss: 0.6033 - accuracy: 0.5881 
+Epoch 3: val_loss improved from 0.69044 to 0.65181, saving model to model-tgs-salt.h5
+58/58 [==============================] - 41s 711ms/step - loss: 0.6033 - accuracy: 0.5881 - val_loss: 0.6518 - val_accuracy: 0.5582 - lr: 0.0010
+Epoch 4/5
+58/58 [==============================] - ETA: 0s - loss: 0.5806 - accuracy: 0.6092 
+Epoch 4: val_loss improved from 0.65181 to 0.61261, saving model to model-tgs-salt.h5
+58/58 [==============================] - 41s 710ms/step - loss: 0.5806 - accuracy: 0.6092 - val_loss: 0.6126 - val_accuracy: 0.6028 - lr: 0.0010
+Epoch 5/5
+58/58 [==============================] - ETA: 0s - loss: 0.5640 - accuracy: 0.6288 
+Epoch 5: val_loss improved from 0.61261 to 0.58013, saving model to model-tgs-salt.h5
+58/58 [==============================] - 41s 707ms/step - loss: 0.5640 - accuracy: 0.6288 - val_loss: 0.5801 - val_accuracy: 0.6332 - lr: 0.0010
+7/7 [==============================] - 1s 159ms/step - loss: 0.5801 - accuracy: 0.6332
+58/58 [==============================] - 10s 169ms/step
+7/7 [==============================] - 1s 158ms/step
