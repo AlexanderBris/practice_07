@@ -1,4 +1,5 @@
 # practice_07
+данные из https://www.robots.ox.ac.uk/~vgg/data/bicos/ (oxfordflower102)
 # Контроль изображения
 ![image](https://github.com/AlexanderBris/practice_07/assets/48794524/673401af-e41f-4e9a-aeef-09117b778dd6)
 # Обучение
